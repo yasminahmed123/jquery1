@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imgs/events-heavenly-header\ \(1\).jpg);
+    background-size: cover;
+    background-position: 100%;
+    background-clip: inherit;
+}
+
+.layer{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(212, 79, 70, 0.459);
+}
+
+
+.Home-title{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: rgb(238, 236, 236);
+    
+
+}
+.Home-title h1{
+    font-size: 70px ;
+    font-weight: 500;
+    line-height: 72px;
+}
+
+
+/* **********end header********** */
+#sideBar{
+    display: flex;
+    position: fixed;
+    top: 0;
+    bottom:0 ;
+    z-index: 9999;
+}
+
+.sideBar-inner{
+    background-color: black;
+    padding: 10px;
+
+}
+#sideBar i {
+    transform: translateY(100%);
+    background-color: transparent;
+    color: #fff;
+    padding: 10px;
+    align-self: flex-start;
+    cursor: pointer;
+}
+.color-box{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+
+}
+#sideBar li{
+    list-style: none;
+    padding: 30PX;
+}
+#sideBar a{
+    text-decoration: none;
+    color: rgb(247, 238, 238);
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.open{
+    font-size: 30px;
+}
+/* close */
+.box{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(214, 46, 51, 0.6) ;
+    color: #f4f4f4;
+    
+}
+.Box-three {
+    
+    cursor: pointer;
+}
+.content ,.content ,.content ,.content{
+display: none;
+
+}
+.content{
+    width: 50%;
+    margin: auto;
+background-color:rgba(204, 204, 204, 1)
+}
+
+.countdown{
+   text-align: center;
+   /* padding: 40px; */
+   background-image: url(../imgs/invitation-2508607__340.jpg);
+   
+   
+}
+
+.layer-two{
+     width: 100%;
+   height: 300;
+    background-color: rgba(214, 107, 99, 0.692);
+}
+
+
+.single-count{
+    width: 200px;
+    display: inline-block;
+    padding: 40px 20px;
+    background:transparent;
+    margin: 30px 15px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border:2px solid rgb(243, 238, 238);
+}
+
+/* CONTACT */
+textarea {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+
+  #characterCount {
+    color: gray;
+  }
+
+
+.conatct-btn{
+    width: 20%;
+    padding: 10px 30px ;
+    background-color: rgb(226, 17, 17);
+    color: white;
+    border: 1px solid rgb(214, 12, 12);
+    transition: all 1s;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.cont-icon i{ 
+    font-size: 20px;
+
+}
+.contact{color:#777777
+    
+}
+.icon i{
+    border: 1px solid #777777 ;
+    width:40px;
+    height:40px;
+    text-align: center;
+    cursor:pointer;
+    margin: 10px;
+    padding-top: 10px;
+}
+.icon i:hover{
+    color:white;
+    background-color: rgba(255, 0, 0, 0.76);
+    border: 0px solid rgba(255, 0, 0, 0.644)
+}
+.info{
+    font-size: 18px;
+    font-weight: 900;
+
+    
+}
